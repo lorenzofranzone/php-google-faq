@@ -1,0 +1,104 @@
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Reset */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+p { margin-bottom: 12px; }
+
+header {
+  padding: 24px 24px 0;
+  border-bottom: 1px solid rgba(151,151,151,0.5);
+  font-family: 'Open Sans', sans-serif;
+}
+
+header .top, nav .bottom {
+  display: flex;
+  align-items: flex-start;
+}
+
+header .top img {
+  max-width: 74px;
+  max-height: 24px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+header .top a {
+  font-size: 22px;
+  line-height: 22px;
+  color: #5f6368;
+}
+
+header .bottom {
+  margin: 15px 15px 0 0;
+}
+
+header nav {
+
+}
+
+header .bottom ul.links {
+  display: flex;
+  justify-content: flex-start;
+}
+
+header .bottom ul.links li {
+  list-style: none;
+}
+
+header .bottom ul.links li a {
+  color: #5f6368;
+  margin-right: 42px;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 1.43;
+  padding-bottom: 6px;
+}
+
+header .bottom ul.links li a.active {
+  color: #3367d6;
+  border-bottom: 3px solid #3367d6;
+}
+
+header .bottom ul.links li:last-child {
+  margin-left: auto;
+}
+
+header .bottom ul.links li:last-child a {
+  margin-right: 0;
+}
+
+.container {
+  max-width: 1042px;
+  padding: 32px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #3c4043;
+  font-family: 'Google Sans',sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+  padding: 64px 0 0 0;
+}
+
+p {
+  letter-spacing: .2px;
+  line-height: 24px;
+  padding-top: 20px;
+  margin: 10px 0;
+}
